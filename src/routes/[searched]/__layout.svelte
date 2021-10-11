@@ -1,6 +1,7 @@
 <script>
   import back from '../../../static/backIcon.svg';
   import home from '../../../static/homeIcon.svg';
+  import ysl from  '../../../static/yslblue.jpeg';
   import {goto} from '$app/navigation';
 
   const goBack = () => {
@@ -18,3 +19,7 @@
   </button>
 </div>
 <slot></slot>
+
+<div class="flex items-center justify-center text-white">
+  <img src={ysl} alt="Yoonsun Lee" class="w-full">
+</div>

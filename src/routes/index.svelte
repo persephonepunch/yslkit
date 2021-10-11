@@ -1,5 +1,6 @@
 <script>
   import {goto} from '$app/navigation';
+  import Ysl from '../components/Ysl.svelte'
 
   var searched = '';
   const search = () => {
@@ -16,4 +17,8 @@
     </div>
 
   </div>
+
+  <Ysl />
+
+
 </section>
